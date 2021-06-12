@@ -68,6 +68,18 @@ public class PlayerMovement : MonoBehaviour
         rb2d.AddForce(hforce, ForceMode2D.Force);
     }
 
+    //For detecting when the player jumps into the lake.
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Teleporter")
+        {
+            //Debug.Log("Diving into a new dimension!");
+            
+            //Potentially have a system in place to change this to a random value, or work with the GameManager to manage the player's progress!
+            GameManager.Instance.ChangeScene(1);
+        }
+    }
+
     //This function is where the logic for cooldowns is handled
     //Currently: the jumpcooldown will be decremented here.
     private void RunCooldowns()

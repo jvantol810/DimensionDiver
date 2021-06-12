@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8225188214795282245}
   - component: {fileID: 1174336136235979393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GunArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6891585323410109704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6036663774793543479}
   - component: {fileID: 8712541814939416995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2766523246782557076}
   - component: {fileID: 6841789779035191855}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -287,7 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4289407574826191614}
   - component: {fileID: 8482571467247210973}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1257603891488373231}
   - component: {fileID: 5944628496854654533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OxygenTank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,7 +458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3460178244310326620}
   - component: {fileID: 8802632893388159511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HarpoonG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6299470334932431697}
   - component: {fileID: 7933317459938075037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -622,7 +622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5909180126763022867}
   - component: {fileID: 2050576081152771554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -709,7 +709,7 @@ GameObject:
   - component: {fileID: 870234256}
   - component: {fileID: 2809024036283420632}
   - component: {fileID: 4212164717455823111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -862,7 +862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4463961355906343246}
   - component: {fileID: 6196911642662345735}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HarpoonF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +944,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2523185613972421311}
   - component: {fileID: 1406838819586200356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}

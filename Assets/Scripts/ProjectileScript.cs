@@ -45,6 +45,8 @@ public class ProjectileScript : MonoBehaviour
             if (collision.gameObject.tag == "Enemy")
             {
                 //Grab Enemy Health and deal damage, or whatever feels right!
+                //Debug.Log("Hit");
+                collision.gameObject.GetComponent<EnemyController>().TakeDamage(5);
             }
         }
     }

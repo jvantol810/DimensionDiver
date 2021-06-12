@@ -146,4 +146,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 60
   bulletdrop: 0
-  shotByPlayer: 0
+  shotByPlayer: 1
