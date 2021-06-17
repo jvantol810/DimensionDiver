@@ -791,9 +791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c286b990994747469c3facde10159dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useDefaultOptions: 1
   jumpCooldownTimer: 2
-  horizontalSpeed: 650
+  horizontalSpeed: 5
   jumpPower: 1
   GunArm: {fileID: 280722101060744969}
   LeftArm: {fileID: 9006102701983078320}
