@@ -39,8 +39,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (animController.GetStateY() == "Landed" && jumpCooldown <= 0f)
             {
-                jumpCooldown = jumpCooldownTimer;
-                rb2d.AddForce(new Vector2(0, 20f), ForceMode2D.Impulse);
+                Jump();
             }
         }
         if(Input.GetKeyDown(KeyCode.F))
@@ -60,6 +59,13 @@ public class PlayerMovement : MonoBehaviour
         rb2d.AddForce(hforce, ForceMode2D.Force);
     }
 
+    private void Jump()
+    {
+        jumpCooldown = jumpCooldownTimer;
+        Vector2 jumpDir;
+        jumpDir = new Vector2(0, animController.yScale);
+        rb2d.AddForce(new Vector2(0, jumpPower) * jumpDir, ForceMode2D.Impulse);
+    }
     //For detecting when the player jumps into the lake.
     private void OnTriggerEnter2D(Collider2D collision)
     {

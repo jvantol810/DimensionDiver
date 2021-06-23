@@ -6,6 +6,7 @@ public class PlayerAnimationController : MonoBehaviour
 {
     private Rigidbody2D rb2d;
     private Animator animator;
+    public float yScale = 1f;
     [SerializeField]
     private string ystate, xstate;
     private Vector2 velocity;
@@ -45,7 +46,7 @@ public class PlayerAnimationController : MonoBehaviour
             xstate = "Moving Right";
             if (transform.localScale.x != 1f)
             {
-                transform.localScale = new Vector3(1f, 1f, 1f);
+                transform.localScale = new Vector3(1f, yScale, 1f);
             }
         }
         else if (velocity.x < 0f)
@@ -53,7 +54,7 @@ public class PlayerAnimationController : MonoBehaviour
             xstate = "Moving Left";
             if (transform.localScale.x != -1f)
             {
-                transform.localScale = new Vector3(-1f, 1f, 1f);
+                transform.localScale = new Vector3(-1f, yScale, 1f);
             }
         }
         else
@@ -86,6 +87,11 @@ public class PlayerAnimationController : MonoBehaviour
         }
     }
 
+    public void flipVertically(float direction)
+    {
+        yScale = direction;
+        transform.localScale = new Vector3(transform.localScale.x, yScale, 1f);
+    }
 
     //Public Getter Functions for the string state values
     public string GetStateX()

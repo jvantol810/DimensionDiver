@@ -793,7 +793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpCooldownTimer: 2
   horizontalSpeed: 5
-  jumpPower: 1
+  jumpPower: 20
   GunArm: {fileID: 280722101060744969}
   LeftArm: {fileID: 9006102701983078320}
   jumpCooldown: 0
@@ -809,6 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f8b4275ed9b64443ba1d87864e019c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yScale: 1
   ystate: 
   xstate: 
 --- !u!95 &2809024036283420632

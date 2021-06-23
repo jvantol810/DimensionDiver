@@ -46,8 +46,15 @@ public class ProjectileScript : MonoBehaviour
             {
                 //Grab Enemy Health and deal damage, or whatever feels right!
                 //Debug.Log("Hit");
-                collision.gameObject.GetComponent<EnemyController>().TakeDamage(5);
+                
+                HitEnemy(collision.gameObject.GetComponent<EnemyController>());
             }
         }
+    }
+
+    private void HitEnemy(EnemyController enemy)
+    {
+        enemy.TakeDamage(5);
+        Destroy(gameObject);
     }
 }
